@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    background-color: #39158e;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.portfolio-name {
+    color: white;
+    font-size: 1.5em ;
+    font-weight: bold;
+    background-color:black;
+    border: 2px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+nav ul li {
+   margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color:black;
+    border: 2px ;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li a:hover {
+    color: yellow;
+}
+.homepage {
+    display: flex;
+    align-items: center;
+    margin-top:100px;
+}
+.homepage div{
+    margin-top:-500px;
+}
+.homepage h1{
+    font-size: 2.5rem;
+    color: black;
+    top:0;
+}
+.homepage img {
+    width: 30%;
+    border-radius: 8px;   
+}
+.homepage p{
+    font-size: 1.2em;
+    margin-top: 0px;    
+}
+
+.about-section{
+    padding:50px;
+    text-align: center;
+}
+.about-section h1{
+    margin:  20px;
+    font-size: 2.5rem;
+    color: black;
+}
+.about-section p{
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.details{
+    padding:50px;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+}
+.details img {
+    width: 50%;
+    border-radius: 50%;
+    margin: auto 0px auto 0px;
+}
+.details h1{
+    margin-bottom:20px;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.details h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.details p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.details div {
+    max-width: 60%;
+}
+
+.project {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 0px auto 20px auto;
+    border-radius: 9px;
+    padding: 10px;   
+}
+.project img{
+    width: 50%; 
+    height: 50%; 
+    border-radius: 8px;
+    margin: 10px auto 10px 10px;
+}
+.project h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.project p {
+    font-size: 1.3em;
+    color: #555;
+}
+.contact{
+    padding:50px;    
+}
+.contact h1{
+    margin:  20px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+.contact p{
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
